@@ -1,0 +1,50 @@
+[
+    {
+      "precio": 7.95,
+      "id": 7,
+      "title": "Hamburguesa de ternera",
+      "thumbnailUrl": "img/carta/hamburguesa.jpg",
+      "calorias": 600,
+      "mediterraneo": "Mediterraneo"
+    },
+    {
+      "precio": 5.45,
+      "id": 8,
+      "title": "Dorada a la plancha",
+      "thumbnailUrl": "img/carta/dorada.jpg",
+      "calorias": 250,
+      "mediterraneo": "Mediterraneo"
+    },
+    {
+      "precio": 6.45,
+      "id": 9,
+      "title": "Pollo asado al limón",
+      "thumbnailUrl": "img/carta/polloasado.jpg",
+      "calorias": 250,
+      "mediterraneo": "Mediterraneo"
+    },
+    {
+      "precio": 7.95,
+      "id": 10,
+      "title": "Ensalada de quinoa con aguacate, mango y tofu",
+      "thumbnailUrl": "img/carta/ensaladaquinoa.jpg",
+      "calorias": 200,
+      "vegano": "Vegano"
+    },
+    {
+      "precio": 6.45,
+      "id": 11,
+      "title": "Pulpo con patatas",
+      "thumbnailUrl": "img/carta/pulpo.jpg",
+      "calorias": 300,
+      "celiaco": "Sin gluten"
+    },
+    {
+      "precio": 7.95,
+      "id": 12,
+      "title": "Rape en salsa verde",
+      "thumbnailUrl": "img/carta/rape.jpg",
+      "calorias": 250,
+      "celiaco": "Sin gluten"
+    }
+  ]

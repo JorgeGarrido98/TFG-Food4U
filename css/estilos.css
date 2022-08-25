@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* HEADER  */
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    height: 80px;
+}
+
+header {
+    background-color: rgb(169, 164, 164);
+    padding: 30px 0;
+}
+
+header .contenedor {
+    background-color: rgb(169, 164, 164);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logotipo {
+    width: 14%;
+}
+
+header nav a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btn-cerrar {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.btn-cerrar:hover {
+    background-color: rgb(161, 34, 34);
+}
+
+/* ---- ----- ----- Index ----- ----- ----- */
+
+.contenedor2 {
+    width: auto;
+    margin: auto;
+}
+
+.contenedor-principal {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .25) 0%, rgba(0, 0, 0, .25) 100%), url(../img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.contenedor-principal .contenedor {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.contenedor-principal .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+.contenedor-principal .descripcion {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.contenedor-principal .boton {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.contenedor-principal .boton:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* ---- ----- ----- About Us ----- ----- ----- */
+
+body {
+    color: black;
+}
+
+.section-about {
+    margin-top: 50px;
+}
+
+.h2a {
+    text-align: center;
+}
+
+.div-texto {
+    margin: 50px 100px;
+    text-align: center;
+}
+
+.div-ul {
+    margin: 20px 100px;
+    text-align: left;
+}
+
+
+/* ---- ----- ----- Registro y Login ----- ----- ----- */
+
+.form-registro {
+    width: 450px;
+    background: #AAA;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #000;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.controls {
+    width: 100%;
+    background: #AAA;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #000;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.form-registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-registro a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.form-registro .boton {
+    width: 100%;
+    background: #4A4A4A;
+    padding: 12px;
+    border: 1px solid #4A4A4A;
+    color: #fff;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+/* ----- ----- ----- Carta ----- ----- ----- */
+
+.container {
+    margin-top: 50px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-body .mediterraneo {
+    color: rgb(80, 80, 255);
+}
+
+.card-body .vegano {
+    color: rgb(185, 27, 185);
+}
+
+.card-body .vegetariano {
+    color: green;
+}
+
+.card-body .celiaco {
+    color: rgb(225, 216, 46);
+}
+
+
+/* ----- ----- ----- Carrito ----- ----- ----- */
+
+#carrito {
+    border: 5px solid black;
+    background-color: rgb(169, 164, 164);
+    position: absolute;
+    margin-left: 9%;
+    top: 35%;
+    display: none;
+}
+
+#carrito h4 {
+    font-weight: bold;
+}
+
+.table td,
+.table th {
+    background-color: rgb(169, 164, 164);
+    color: #000;
+}
+
+#footer {
+    height: 50px;
+}
+
+#template-footer {
+    max-height: 500px;
+}
+
+#cerrar {
+    position: absolute;
+}
+
+#cerrar #cruz-carrito {
+    width: 8%;
+    margin-top: -13%;
+    margin-left: 210%;
+}
+
+#finalizar {
+    display: none;
+    border: 3px solid black;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    background-color: gray;
+    color: white;
+    height: 200px;
+    line-height: 200px;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.container-finalizar {
+    margin-top: -15%;
+}
+
+#cruz-finalizar {
+    width: 4%;
+    margin-top: -15%;
+    margin-left: 97%;
+}
+
+/* ----- ----- ----- Footer ----- ----- ----- */
+
+footer {
+    position: absolute;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+    margin-top: -50px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: rgb(169, 164, 164);
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-datos {
+    margin-top: 10px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

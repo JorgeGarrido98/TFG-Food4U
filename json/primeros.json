@@ -1,0 +1,50 @@
+[{
+        "precio": 6.95,
+        "id": 1,
+        "title": "Sopa de cebolla",
+        "thumbnailUrl": "img/carta/sopacebolla.jpg",
+        "calorias": 350,
+        "vegano": "Vegano"
+    },
+    {
+        "precio": 5.45,
+        "id": 2,
+        "title": "Coles de bruselas con jamón york",
+        "thumbnailUrl": "img/carta/colesbruselas.jpg",
+        "calorias": 200,
+        "mediterraneo": "Mediterraneo"
+    },
+    {
+        "precio": 6.45,
+        "id": 3,
+        "title": "Arroz negro con Ali-Oli",
+        "thumbnailUrl": "img/carta/arroznegro.jpg",
+        "calorias": 450,
+        "mediterraneo": "Mediterraneo"
+    },
+    {
+        "precio": 7.95,
+        "id": 4,
+        "title": "Ensalada verde con frutas",
+        "thumbnailUrl": "img/carta/ensalaconfrutas.webp",
+        "calorias": 150,
+        "mediterraneo": "Mediterraneo",
+        "vegetariano": "Vegetariano"
+    },
+    {
+        "precio": 6.45,
+        "id": 5,
+        "title": "Lentejas de la abuela",
+        "thumbnailUrl": "img/carta/lentejas.jpg",
+        "calorias": 550,
+        "mediterraneo": "Mediterraneo"
+    },
+    {
+        "precio": 7.95,
+        "id": 6,
+        "title": "Lasaña de espinacas",
+        "thumbnailUrl": "img/carta/lasaña.jpg",
+        "calorias": 400,
+        "vegetariano": "Vegetariano"
+    }
+]
